@@ -32,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-    /** here we act on the result we got from the intent code in the onCreate() **/
+    /** here we act on the result we got from the intent code in selectPhoto() **/
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
